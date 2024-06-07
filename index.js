@@ -8,7 +8,7 @@ function generateQRCode() {
     // Generate new QR Code
     var qrcode = new QRCode(qrcodeContainer, {
         text: link,
-        width: 128,
-        height: 128,
+        width: 1000,
+        height: 1000,
     });
 }
